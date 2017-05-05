@@ -39,7 +39,6 @@ namespace PrismApp.ViewModels
         }
 
         public DelegateCommand<string> AddCommand { get; private set; }
-
         public MainWindowViewModel(IRegionManager regionManager)
         {
             _regionManager = regionManager;
